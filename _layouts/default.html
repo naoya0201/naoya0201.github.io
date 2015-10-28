@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+	{% include head.html %}
+<div id="wrapper">
+	{% include header.html %}
 
-  <body>
+	<div id="main_wrap" class="clearfix">
+		<div id="main">
 
-    {% include header.html %}
+			<div class="diary_area">
+				{{ content }}
+			</div><!-- /.diary_area -->
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+			<div class="diary_area">
+				<h3>最初の日記です。</h3>
+				<p class="date">2015.10.27（火）</p>
+				<p>こんにちは。</p>
+			</div><!-- /.diary_area -->
 
-    {% include footer.html %}
+		</div><!-- /#main -->
 
-  </body>
+		{% include sidebar.html %}
+	</div><!-- /#main_wrap.clearfix -->
+
+
+</div><!-- /#wrapper.clearfix -->
+
+</body>
 
 </html>
