@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts %}
 	<div class="diary_area">
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-		<p class="date">{{ post.date | date: "%Y %d, %b" }}</p>
+		<p class="date">{{ post.date | date: "%Y/%m/%d" }}</p>
 		<p class="mb30">{{post.content}}</p>
 		<p class="rss-subscribe tar">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 	</div><!-- /.diary_area -->
