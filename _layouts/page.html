@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+<div class="diary_area">
+	<h3><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+	<p class="date">{{ page.date | date: "%Y/%m/%d" }}</p>
+	<div class="mb30">{{page.content}}</div><!-- /.mb30 -->
+</div><!-- /.diary_area -->
