@@ -6,6 +6,6 @@ layout: default
 	<div class="diary_area">
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 		<p class="date">{{ post.date | date: "%Y/%m/%d" }}</p>
-		<p class="mb30">{{post.content}}</p>
+		<div class="mb30">{{post.content}}</div><!-- /.mb30 -->
 	</div><!-- /.diary_area -->
 {% endfor %}
