@@ -12,6 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Naoya0201のGitHub Pageです。基本的に雑記帳と化しております
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://naoya0201.github.io/" # the base hostname & protocol for your site
+about_me: >
+渋谷でなんやかんややってます。<br>
+野球観たりするのがすごく好き。
 twitter_username: jekyllrb
 github_username:  jekyll
 
