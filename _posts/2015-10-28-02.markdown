@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Jekyll導入"
+date:   2015-10-28 15:19:54 +0900
+categories: Diary
+---
+二番目の日記です。
+追加テストも兼ねつつ。
